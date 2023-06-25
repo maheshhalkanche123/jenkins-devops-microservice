@@ -1,6 +1,6 @@
 pipeline {
 	//agent any 
-	agent 
+	agent any
 	stages {
 			stage('Build') {
 				steps {
